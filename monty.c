@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 			if (up >= 0)
 				pall();
 		}
-		else if (strcmp(instruction, "pint\n") == 0)
+		else if (strcmp(inst, "pint\n") == 0)
 		{
 			pint(line_no);
 		}

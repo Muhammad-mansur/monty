@@ -10,6 +10,8 @@
 
 void pint(int line_no)
 {
+	int up = -1;
+
 	if (up >= 0)
 		printf("%d\n", stack[up]);
 	else
