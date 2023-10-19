@@ -1,6 +1,19 @@
 #ifndef main_h
 #define main_h
 
+#define STACK_SIZE 100
+
+int stack[STACK_SIZE];
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+void push(int value, int line_number);
+void pall();
+int main(int argc, char *argv[]);
+
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
