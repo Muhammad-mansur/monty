@@ -42,6 +42,10 @@ int main(int argc, char *argv[])
 			if (up >= 0)
 				pall();
 		}
+		else if (strcmp(instruction, "pint\n") == 0)
+		{
+			pint(line_no);
+		}
 		else
 		{
 			fprintf(stderr, "L%d: Error: usage: push integer\n", line_no);

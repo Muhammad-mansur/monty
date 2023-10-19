@@ -13,6 +13,7 @@ int stack[STACK_SIZE];
 void push(int value, int line_number);
 void pall();
 int main(int argc, char *argv[]);
+void pint(int line_no);
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
